@@ -9,6 +9,7 @@
 
 #import des modules
 import tkinter as tk
+from random import randint
 
 
 #variables globales
@@ -17,6 +18,17 @@ import tkinter as tk
 
 #fonctions
 
+def initialisation(nb_lignes, nb_colonnes):
+    tableau = []
+    for i in range(nb_lignes):
+        tableau.append([0]*nb_colonnes)
+    return tableau
+
+def aleatoire():
+    for i in range(nb_lignes):
+        for j in range(nb_colonnes):
+            tableau[i[j]] = random.randint(0, 10)
+    return tableau
 
 #interface graphique
 
