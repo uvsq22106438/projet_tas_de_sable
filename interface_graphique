@@ -1,15 +1,20 @@
+
 import tkinter as tk
 
 #fenetre
 
 root = tk.Tk()
+root.title("Grain de sable")
+root.geometry("720x380")
 label = tk.Label(root, text="", font=("courrier", "40"))
 label.grid(row=0, column=0)
+
 
 #widget button
 
 bouton = tk.Button(root, text="création de la configuration aléatoire", font=("courrier", "30"))
-bouton.grid()
+bouton.pack(expand=YES)
+
 
 
 root.mainloop()
