@@ -8,6 +8,8 @@
 
 
 #import des modules
+import tkinter as tk
+
 
 #variables globales
 
