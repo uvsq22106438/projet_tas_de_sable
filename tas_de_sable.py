@@ -6,3 +6,11 @@
 # https://github.com/uvsq22106438/projet_tas_de_sable
 #########################################
 
+
+#import des modules
+
+#variables globales
+
+#fonctions
+
+
